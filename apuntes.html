@@ -303,8 +303,42 @@
             Aplica estilos o contenido al final de nuestro elemento.<br><br>
 
             <b>Diferencias entre ambas</b><br>
-            Las psudoclases se escriben con : y los psudoelementos con ::.<br><br></p>
-            <img src="https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202021-10-01%20162112-d0f29a72-778c-4a5d-80da-dc709fee5365.jpg" alt="">
+            Las psudoclases se escriben con : y los psudoelementos con ::.<br><br>
+        </p>
+        <img src="https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202021-10-01%20162112-d0f29a72-778c-4a5d-80da-dc709fee5365.jpg"
+            alt="">
+    </div>
+    <div>
+        <h3 class="subtitulos">Clase 10 - Cascada y especificidad en CSS</h3>
+        <p>El proceso de diseño y estilización de una página web puede traer consigo diversos desafíos, especialmente en
+            lo referente a los estilos CSS. Algunas de las preguntas comunes que pueden surgir son: ¿Por qué no se
+            aplican los colores como deseo? ¿Por qué un elemento se comporta de manera diferente a lo esperado? Estos
+            problemas suelen estar relacionados con conceptos como la cascada y la especificidad en CSS. <br><br>
+
+            La cascada en CSS se refiere a cómo se determinan qué estilos toman precedencia sobre otros. Esto se basa en
+            el orden de las reglas en el código, priorizando aquellas que se encuentran más abajo. Por ejemplo, si dos
+            reglas aplican estilos a un mismo elemento, el estilo definido más abajo en el código será el que
+            prevalezca. <br> <br>
+
+            La especificidad en CSS es la manera en que se asigna un valor a una regla para indicar qué tan específica
+            es en relación con otras reglas. Esto ayuda a los navegadores a decidir qué estilos aplicar cuando hay
+            conflictos. Por lo general, cuanto más específica sea una regla, más peso tendrá en la determinación de los
+            estilos aplicados. <br> <br>
+
+            Existen diferentes niveles de especificidad en CSS, desde el uso de selectores simples como elementos HTML,
+            clases y atributos, hasta selectores más específicos como IDs y pseudoelementos. El uso de la palabra clave
+            "!important" es una forma de forzar la aplicación de un estilo, pero es considerada una mala práctica y debe
+            evitarse siempre que sea posible. <br><br>
+
+            Otro aspecto importante es evitar los estilos en línea y trabajar únicamente con la especificidad de los
+            selectores. Esto ayuda a mantener un código más limpio y fácil de mantener. Sin embargo, es importante
+            recordar que los selectores combinados también suman su especificidad, por lo que es necesario tener en
+            cuenta todos los selectores presentes en una regla para calcular su especificidad total. <br><br>
+
+            Herramientas como Visual Studio Code pueden ayudar a calcular la especificidad de los selectores, y existen
+            sitios web dedicados a esta tarea, como Specificity Calculator, que facilitan este proceso. En resumen,
+            comprender la cascada y la especificidad en CSS es fundamental para resolver problemas de estilización y
+            mantener un código CSS limpio y organizado.</p>
     </div>
 </body>
 
