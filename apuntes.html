@@ -385,6 +385,33 @@
             Es recomendable primero familiarizarse con Flexbox y luego pasar a Grid, y finalmente, combinar ambas
             técnicas para maximizar su potencial en el diseño web.</p>
     </div>
+    <div>
+        <h3 class="subtitulos">Clase 13 - Modelo de caja</h3>
+        <p>El problema que se presenta con el tamaño de los bordes es que al agregar un borde a un elemento, este
+            incrementa su tamaño total, lo que puede afectar el diseño y la disposición de los elementos circundantes,
+            especialmente en situaciones como al realizar un hover sobre el elemento. <br><br>
+
+            La solución a este problema es mantener el tamaño total del elemento constante al aplicar el borde. Esto se
+            logra estableciendo un borde transparente del mismo tamaño que el borde visible. De esta manera, el elemento
+            conservará su tamaño total original, pero se mostrará el borde visible al realizar acciones como un hover.<br><br>
+
+            Por ejemplo, supongamos que queremos aplicar un borde de 2px de color rojo al elemento div al hacer hover
+            sobre él. Para evitar que el tamaño del elemento cambie al aplicar el borde, podríamos establecer un borde
+            transparente de 2px en el estado normal del elemento y luego cambiar el color del borde al hacer hover:<br><br>
+
+    
+            div {<br>
+            border: 2px solid transparent; /* Borde transparente para mantener el tamaño total */<br>
+            }<br>
+
+            div:hover {<br>
+            border-color: red; /* Cambia el color del borde al hacer hover */<br>
+            }<br>
+            ```<br>
+
+            Esta técnica garantiza que el tamaño total del elemento permanezca constante, evitando cualquier cambio no
+            deseado en la disposición de los elementos circundantes al aplicar un borde.</p>
+    </div>
 </body>
 
 </html>
