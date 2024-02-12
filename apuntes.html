@@ -393,13 +393,15 @@
 
             La solución a este problema es mantener el tamaño total del elemento constante al aplicar el borde. Esto se
             logra estableciendo un borde transparente del mismo tamaño que el borde visible. De esta manera, el elemento
-            conservará su tamaño total original, pero se mostrará el borde visible al realizar acciones como un hover.<br><br>
+            conservará su tamaño total original, pero se mostrará el borde visible al realizar acciones como un
+            hover.<br><br>
 
             Por ejemplo, supongamos que queremos aplicar un borde de 2px de color rojo al elemento div al hacer hover
             sobre él. Para evitar que el tamaño del elemento cambie al aplicar el borde, podríamos establecer un borde
-            transparente de 2px en el estado normal del elemento y luego cambiar el color del borde al hacer hover:<br><br>
+            transparente de 2px en el estado normal del elemento y luego cambiar el color del borde al hacer
+            hover:<br><br>
 
-    
+
             div {<br>
             border: 2px solid transparent; /* Borde transparente para mantener el tamaño total */<br>
             }<br>
@@ -411,6 +413,21 @@
 
             Esta técnica garantiza que el tamaño total del elemento permanezca constante, evitando cualquier cambio no
             deseado en la disposición de los elementos circundantes al aplicar un borde.</p>
+    </div>
+    <div>
+        <h3 class="subtitulos">Clase 14 - Colapso de márgenes</h3>
+        <p>El colapso de márgenes sucede cuando dos elementos bloque adyacentes tienen un determinado valor de margin,
+            entonces estos márgenes se solapan en un solo valor, el mayor de ambos. <br><br>
+            <img src="https://static.platzi.com/media/articlases/Images/frontend_developer25.png" alt=""><br><br>
+
+           <b> Colapso de márgenes</b><br><br>
+            Ejemplo de colapso de márgenes<br>
+            Mira el siguiente código, cambia el valor de display a inline-block y observa el resultado.<br><br>
+
+            Ejemplo de colapso de márgenes<br>
+            Explicación de colapso de márgenes<br>
+            Como puedes observar, al cambiar el display este comportamiento desaparece. Además, en flexbox y grid no<br>
+            ocurre el colapso de márgenes. Cuida los márgenes que colocas en los elementos de tipo bloque.</p>
     </div>
 </body>
 
