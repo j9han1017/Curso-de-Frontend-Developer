@@ -6,7 +6,7 @@ Este repositorio contiene materiales y recursos del Curso de Frontend Developer 
 
 El curso de Frontend Developer te proporciona las habilidades necesarias para convertirte en un desarrollador frontend competente. Desde los fundamentos de HTML, CSS y JavaScript hasta técnicas avanzadas de desarrollo web, este curso te prepara para crear experiencias de usuario excepcionales y sitios web interactivos.
 
-## Contenido
+## Contenido.
 
 El curso cubre una amplia gama de temas, incluyendo:
 
